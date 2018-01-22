@@ -3,7 +3,7 @@
 //  Fourer1D  
 //  
 //  Created by Tony on 14/11/16.  
-//  Copyright (c) 2014年 Tony. All rights reserved.  
+//  Copyright (c) 2017年 Yuhao Wang. All rights reserved.  
 //  
 #include "fft.h"
   
@@ -127,4 +127,3 @@ void FFT(double * src,Complex * dst,int size_n){
     printf("FFT use time :%lfs for Datasize of:%d\n",(double)(end-start)/CLOCKS_PER_SEC,size_n);  
       
 }  
-////////////////////////////////////////////////////////////////////  
